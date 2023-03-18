@@ -1,0 +1,78 @@
+/* Quiz Card */
+.quizContainer{
+padding-top:20px;
+}
+.quizCard{
+  max-width: 400px;
+  margin: 0 auto;
+}
+.quizHeader{
+  background-color: #1976d2;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  width: 330px;
+  margin: 0 auto;
+}
+.quizFooter{
+  height:10px ;
+  width: 340px;
+  margin: 0 auto;
+  background-color: #1976d2;
+}
+/* Home Screen */
+.loading{
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  color:darkcyan;
+}
+.result-text{
+  text-align: center;
+}
+.result-container > h1,.mainHead{
+  text-shadow: 4px 2px 5px #917373;
+  text-align: center;
+}
+.question-container {
+  text-align: left;
+  max-width: 500px;
+  min-width: 500px;
+  box-shadow: 0px 5px 24px #867a7a;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-right: 5px solid darkcyan;
+  border-top: 5px solid darkcyan;
+  margin-bottom: 40px;
+}
+.footer{
+  padding: 5px;
+  background: darkcyan;
+  width: 106%;
+  color: white;
+  text-align: center;
+  margin: -20px;
+}
+.pass{
+  color: green;
+}
+.fail{
+  color:red
+}
+.resetBtn{
+  padding: 7px 20px;
+  cursor: pointer;
+}
+/* App  */
+.container {
+  width: 500px;
+  box-shadow: 0px 5px 24px #867a7a;
+  padding: 20px;
+  margin: 0 auto;
+  border-left: 15px solid darkcyan;
+  border-right: 15px solid darkcyan;
+  border-top: 15px solid darkcyan;
+  margin-bottom: 40px;
+}
